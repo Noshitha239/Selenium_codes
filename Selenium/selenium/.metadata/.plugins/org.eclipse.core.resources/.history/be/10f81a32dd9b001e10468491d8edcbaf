@@ -1,0 +1,19 @@
+package com.gqt.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PagesDemo {
+
+	public static void main(String[] args) {
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("file:///C:/eclipse/Selenium/Selenium-Demo/src/Page1.html");
+		
+		driver.findElement(By.linkText("Go to page2")).click();
+		
+		driver.close();
+
+	}
+
+}

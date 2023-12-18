@@ -1,0 +1,10 @@
+package com.gqt.selenium;
+
+public class ShadiRegisterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

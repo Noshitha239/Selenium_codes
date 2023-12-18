@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>This is Page1</h1>
+<a href="Page2.html" target="blank">Go to page2</a>
+</body>
+</html>

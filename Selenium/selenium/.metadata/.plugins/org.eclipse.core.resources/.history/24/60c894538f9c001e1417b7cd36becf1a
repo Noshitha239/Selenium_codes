@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+<input type = "text" value="P"/>
+<input type = "text" value="Q"/>
+</div>
+<div>
+<input type = "text" value="R"/>
+<input type = "text" value="S"/>
+</div>
+</body>
+</html>

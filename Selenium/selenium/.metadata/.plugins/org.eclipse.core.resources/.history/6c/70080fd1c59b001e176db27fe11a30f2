@@ -1,0 +1,35 @@
+package com.gqt.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHrmDemo {
+
+	public static void main(String[] args) throws Exception {
+		//launch chrome
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		//go to orange hrm
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		Thread.sleep(2000);
+		//enter credentials and login
+		driver.findElement(By.name("username")).sendKeys("Admin");
+		Thread.sleep(1000);
+		driver.findElement(By.name("password")).sendKeys("admin123");
+		Thread.sleep(1000);
+		driver.findElement(By.cssSelector("button[type=submit]")).click();
+		Thread.sleep(2000);
+		
+		//home page actions
+		driver.findElement(By.cssSelector("img[alt^=profile]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.linkText("Logout")).click();
+		Thread.sleep(2000);
+		
+		//Forget password scenario
+		driver.findElement(By.cssSelector("p.oxd-text oxd-text--p orangehrm-login-forgot-header")).click();
+
+	}
+
+}

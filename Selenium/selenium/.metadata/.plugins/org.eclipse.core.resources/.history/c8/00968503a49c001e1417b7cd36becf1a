@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<list>
+<input type="radio">Male
+<input type="radio">Female
+<input type="radio">Other
+</list>
+<list>
+<input type="radio">Kannada
+<input type="radio">English
+<input type="radio">Telugu
+</list>
+<list>
+<input type="radio">Java
+<input type="radio">Python
+<input type="radio">Testing
+</list>
+</body>
+</html>
